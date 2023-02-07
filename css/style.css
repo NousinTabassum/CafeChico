@@ -293,10 +293,6 @@ nav img {
         flex-direction: column;
     }
 
-    /* header nav img {
-        width: 400px;
-
-    } */
     .menu {
         width: 80%;
 
@@ -318,6 +314,20 @@ nav img {
         margin: auto;
 
     }
+
+    .big-circle {
+        height: 50px;
+        width: 50px;
+
+
+    }
+
+    .small-circle {
+        height: 30px;
+        width: 30px;
+
+    }
+
 
 }
 
@@ -356,6 +366,19 @@ nav img {
 
     }
 
+    .big-circle {
+        height: 50px;
+        width: 50px;
+
+
+    }
+
+    .small-circle {
+        height: 30px;
+        width: 30px;
+
+    }
+
 }
 
 @media screen and (min-width:769px) and (max-width:992px) {
@@ -375,6 +398,19 @@ nav img {
     .about div {
         width: 80%;
         margin: auto;
+
+    }
+
+    .big-circle {
+        height: 50px;
+        width: 50px;
+
+
+    }
+
+    .small-circle {
+        height: 30px;
+        width: 30px;
 
     }
 }
