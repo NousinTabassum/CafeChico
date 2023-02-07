@@ -43,7 +43,7 @@ nav img {
 
 .shop-name h1 {
 
-    font-family: Song Myung;
+    font-family: 'Song Myung', serif;
     font-size: 48px;
     font-weight: 400;
     line-height: 60px;
@@ -63,8 +63,6 @@ nav img {
     justify-content: center;
     align-items: center;
 
-
-
 }
 
 .home-text p {
@@ -72,9 +70,209 @@ nav img {
     color: white;
     font-style: Regular;
     Font-size: 30px;
-    Line-height: 57px;
+    Line-height: 50px;
     Line-height: 100%;
     /* text-align: center; */
 
+
+}
+
+/*--------------
+     menu section 
+---------------- */
+.menu-sec {
+    background-color: #E5E5E5;
+    position: relative;
+
+}
+
+.menu {
+    width: 40%;
+    margin: 0 auto;
+    color: #4C3F3F;
+    padding: 30px 0;
+}
+
+.menu h1 {
+    font-size: 1.8em;
+}
+
+.section-name {
+    text-align: center;
+    display: flex;
+    word-spacing: 10px;
+
+}
+
+.section-name hr {
+    width: 90px;
+    background-color: #4C3F3F;
+
+}
+
+
+.menu ul {
+    line-height: 30px;
+    padding-right: 60px;
+    padding-left: 40px;
+}
+
+.menu ul li {
+    list-style: none;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: #4C3F3F;
+    font-size: 1.4em;
+    font-weight: 900;
+}
+
+/*------------------------------
+             circle css 
+--------------------------------- */
+.big-circle {
+    height: 70px;
+    width: 70px;
+    background-color: #573923;
+    border-radius: 50%;
+
+}
+
+.small-circle {
+    height: 50px;
+    width: 50px;
+    background-color: #573923;
+    border-radius: 50%;
+
+}
+
+.pos1 {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+
+}
+
+.pos2 {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+
+}
+
+.pos3 {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+
+}
+
+.pos4 {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+
+}
+
+/*----------------------
+     new arrival section 
+------------------------ */
+.new-arrival {
+    padding: 10px;
+    border: 10px solid #E5E5E5;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: #E5E5E5;
+}
+
+.new-arrival h1 {
+    font-size: 1.8em;
+    text-align: center;
+    color: #4C3F3F;
+
+}
+
+.food {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 30px;
+
+}
+
+.gridbox {
+    padding: 5% 10%;
+    background-color: #7a6150;
+    color: white;
+    font-family: 'Sofia', cursive;
+    font-size: 1.3em;
+    border-radius: 15px;
+
+}
+
+.gridbox img {
+    width: 100%;
+    margin: 0 auto
+}
+
+.gridbox p {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*------------------
+    about section 
+---------------------*/
+.about-sec {
+    background-color: #E5E5E5;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+
+}
+
+.about-sec h1 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.about-sec h2 {
+    font-family: 'Song Myung', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+
+
+.about {
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+}
+
+.about img {
+    width: 70%;
+    margin: auto;
+}
+
+.about div {
+    width: 70%;
+    margin-left: 10px;
+
+}
+
+/* contact us 
+------------------------------ */
+.contact-us {
+    background-color: #4C3F3F;
+    color: white;
+    text-align: center;
+    padding: 20px;
 
 }
